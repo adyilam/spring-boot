@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookApplication/BookApplication.iml" filepath="$PROJECT_DIR$/BookApplication/BookApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookClient/BookClient.iml" filepath="$PROJECT_DIR$/BookClient/BookClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookReceiver/BookReceiver.iml" filepath="$PROJECT_DIR$/BookReceiver/BookReceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springBoot.iml" filepath="$PROJECT_DIR$/.idea/springBoot.iml" />
+    </modules>
+  </component>
+</project>
