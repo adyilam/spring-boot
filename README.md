@@ -10,16 +10,6 @@ Description
 
 [Insert project description here]
 
-Table of Contents
-
-Installation
-Usage
-API Documentation
-Technologies Used
-Contributing
-License
-Contact
-
 Installation
 
 To run this project, you will need to have Java and Maven installed on your machine. Then, follow these steps:
