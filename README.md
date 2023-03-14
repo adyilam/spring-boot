@@ -7,9 +7,8 @@
 3. BookReceiver    (Spring Messagint - JMS)
 
 ## Description
-Purpose
 
-The purpose of Spring Boot Book Application is to demonstrate how to build a RESTful API using Spring Boot framework, and how to interact with a database using Spring Data JPA or In-memory database (Map) to store the data. The Book Application API exposes several endpoints that allow users to retrieve, create, update, and delete books. The resources are stored in a MySQL database, and are managed using the Spring Data JPA framework. Also every time a book is added, deleted or updated, the application sends a JMS message with the corresponding book.<br>
+The purpose of Spring Boot Book Application is to demonstrate how to build a RESTful API using Spring Boot framework, and how to interact with a database using Spring Data JPA or In-memory database or HashMap to store the data. The Book Application API exposes several endpoints that allow users to retrieve, create, update, and delete books. The resources are stored in a MySQL database, and are managed using the Spring Data JPA framework. Also every time a book is added, deleted or updated, the application sends a JMS message with the corresponding book.<br>
 
 The purpose of Book Client Application is to call the REST interface of the Book Application using RestTemplate.<br>
 
