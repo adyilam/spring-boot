@@ -14,9 +14,9 @@
 
 To run this project, you will need to have Java and Maven installed on your machine. Then, follow these steps:
 
-Clone the repository to your local machine.
-Open the project in your favorite IDE.
-Run the Application.java file to start the Spring Boot application.
+Clone the repository to your local machine.<br>
+Open the project in your favorite IDE.<br>
+Run the Application.java file to start the Spring Boot application.<br>
 
 ## Usage
 
@@ -28,9 +28,9 @@ Run the Application.java file to start the Spring Boot application.
 
 ## Technologies Used
 
-Java
-Spring Boot
-Maven
+Java<br>
+Spring Boot<br>
+Maven<br>
 
 ## Contributing
 
