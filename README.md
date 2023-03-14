@@ -7,8 +7,15 @@
 3. BookReceiver    (Spring Messagint - JMS)
 
 ## Description
+Purpose
 
-[Insert project description here]
+The purpose of Spring Boot Book Application is to demonstrate how to build a RESTful API using Spring Boot framework, and how to interact with a database using Spring Data JPA or In-memory database (Map) to store the data. The Book Application API exposes several endpoints that allow users to retrieve, create, update, and delete books. The resources are stored in a MySQL database, and are managed using the Spring Data JPA framework. Also every time a book is added, deleted or updated, the application sends a JMS message with the corresponding book.<br>
+
+The purpose of Book Client Application is to call the REST interface of the Book Application using RestTemplate.<br>
+
+The purpose of Book Reciever Application helps to receives all messages send by the BookApplication.
+
+
 
 ## Installation
 
@@ -22,19 +29,15 @@ To run this project, you will need to have Java and Maven installed on your mach
 
 The following endpoints are available in the API:
 
-GET /api/books/: retrieves a list of all books.
-GET /api/books/{isbn}: retrieves a single book by ID.
-POST /api/books/book: creates a new book.
-PUT /api/books/{isbn}: updates an existing book by ID.
-DELETE /api/books/{isbn}: deletes a book by ID.
-To use the API, you can use a tool such as Postman or cURL. Here is an example of how to retrieve a list of all products using cURL:
-
+GET /api/books/: retrieves a list of all books.<br>
+GET /api/books/{isbn}: retrieves a single book by ID.<br>
+POST /api/books/book: creates a new book.<br>
+PUT /api/books/{isbn}: updates an existing book by ID.<br>
+DELETE /api/books/{isbn}: deletes a book by ID.<br>
+To use the API, you can use a tool such as Postman or cURL. <br> Here is an example of how to retrieve a list of all products using cURL:
+<br>
 curl http://localhost:8080/api/books
 You should receive a JSON response containing an array of books.
-
-## API Documentation
-
-[Insert link to API documentation here]
 
 ## Technologies Used
 
