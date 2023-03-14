@@ -35,12 +35,12 @@ PUT /api/books/{isbn}: updates an existing book by ID.<br>
 DELETE /api/books/{isbn}: deletes a book by ID.<br>
 To use the API, you can use a tool such as Postman or cURL. <br> Here is an example of how to retrieve a list of all products using cURL:
 <br>
-curl http://localhost:8080/api/books
+curl http://localhost:8080/api/books <br>
 You should receive a JSON response containing an array of books.
 
 ## Technologies Used
 
-Java<br>
+Java 8 and above <br>
 Spring Boot<br>
 Maven<br>
 
