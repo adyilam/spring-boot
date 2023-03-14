@@ -14,13 +14,23 @@
 
 To run this project, you will need to have Java and Maven installed on your machine. Then, follow these steps:
 
-Clone the repository to your local machine.<br>
-Open the project in your favorite IDE.<br>
-Run the Application.java file to start the Spring Boot application.<br>
+1. Clone the repository to your local machine.<br>
+2. Open the project in your favorite IDE.<br>
+3. Run the Application.java file to start the Spring Boot application.<br>
 
 ## Usage
 
-[Insert usage instructions here]
+The following endpoints are available in the API:
+
+GET /api/books/: retrieves a list of all books.
+GET /api/books/{isbn}: retrieves a single book by ID.
+POST /api/books/book: creates a new book.
+PUT /api/books/{isbn}: updates an existing book by ID.
+DELETE /api/books/{isbn}: deletes a book by ID.
+To use the API, you can use a tool such as Postman or cURL. Here is an example of how to retrieve a list of all products using cURL:
+
+curl http://localhost:8080/api/books
+You should receive a JSON response containing an array of books.
 
 ## API Documentation
 
