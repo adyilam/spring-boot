@@ -1,4 +1,5 @@
 # spring-boot projects
+This Book Application helps to demonstrate how to build a RESTful API using Spring Boot framework, and how to interact with a database using Spring Data JPA..
 
 ## Project Name
 
